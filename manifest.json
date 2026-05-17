@@ -1,9 +1,9 @@
 {
-  "name": "Flow — Productivity Tracker",
+  "name": "Flow",
   "short_name": "Flow",
-  "description": "Track tasks, Pomodoro sessions, daily notes, and productivity streaks",
-  "start_url": ".",
-  "scope": ".",
+  "description": "Track tasks, Pomodoro, notes & stats",
+  "start_url": "/Productivity/",
+  "scope": "/Productivity/",
   "display": "standalone",
   "background_color": "#0a0a12",
   "theme_color": "#7c5cfc",
@@ -11,6 +11,7 @@
   "categories": ["productivity", "utilities"],
   "icons": [
     { "src": "assets/icon_128.png", "sizes": "128x128", "type": "image/png" },
+    { "src": "assets/icon_192.png", "sizes": "192x192", "type": "image/png" },
     { "src": "assets/icon_256.png", "sizes": "256x256", "type": "image/png" },
     { "src": "assets/icon_512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ]

@@ -3,6 +3,7 @@ const ASSETS = [
   "index.html",
   "manifest.json",
   "assets/icon_128.png",
+  "assets/icon_192.png",
   "assets/icon_256.png",
   "assets/icon_512.png",
   "assets/icon.svg",
