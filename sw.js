@@ -1,6 +1,7 @@
 const CACHE = "flow-v1";
 const ASSETS = [
   "index.html",
+  "flow.html",
   "manifest.json",
   "assets/icon_128.png",
   "assets/icon_192.png",

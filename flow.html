@@ -301,7 +301,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubunt
 <body>
 
 <!-- ═══════════════ LANDING PAGE ═══════════════ -->
-<div class="landing" id="landing">
+<div class="landing" id="landing" style="display:none"><script>document.addEventListener("DOMContentLoaded",()=>{setTimeout(()=>{const a=document.getElementById("appView");if(a)showApp()},50)});<\/script>
   <canvas id="particles"></canvas>
 
   <section class="hero">
@@ -724,6 +724,8 @@ function initApp() {
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js").catch(() => {});
 }
-</script>
-</body>
-</html>
+</script><script>document.addEventListener("DOMContentLoaded",showApp);</script></body></html>
+
+
+
+
